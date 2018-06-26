@@ -1,0 +1,449 @@
+Dependencies for Project 'STM32F0 Template', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Library\CMSIS\Device\ST\STM32F0xx\Source\Templates\arm\startup_stm32f030.s)(0x528F2E68)(--cpu Cortex-M0 -g --apcs=interwork -I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include--pd "STM32F030 SETA 1"--list .\listings\startup_stm32f030.lst --xref -o .\objects\startup_stm32f030.o --depend .\objects\startup_stm32f030.d)
+F (.\User\system_stm32f0xx.c)(0x528ADCEA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\User\stm32f0xx_it.c)(0x56B448D1)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
+I (User\stm32f0xx_it.h)(0x528ADCEA)
+I (User\main.h)(0x56B45933)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\math.h)(0x54199D7A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (.\uart\uart.h)(0x56B43F64)
+I (.\ADSP9960\ADSP9960_platform.h)(0x56B45445)
+I (.\ADSP9960\SparkFun_ADSP9960.h)(0x56B4485F)
+F (.\User\gesture.c)(0x56B456FA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\gesture.o --omf_browse .\objects\gesture.crf --depend .\objects\gesture.d)
+I (User\main.h)(0x56B45933)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\math.h)(0x54199D7A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (.\uart\uart.h)(0x56B43F64)
+I (.\ADSP9960\ADSP9960_platform.h)(0x56B45445)
+I (.\ADSP9960\SparkFun_ADSP9960.h)(0x56B4485F)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_rcc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_exti.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_exti.o --omf_browse .\objects\stm32f0xx_exti.crf --depend .\objects\stm32f0xx_exti.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_gpio.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_i2c.c)(0x5638530D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_i2c.o --omf_browse .\objects\stm32f0xx_i2c.crf --depend .\objects\stm32f0xx_i2c.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_syscfg.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_syscfg.o --omf_browse .\objects\stm32f0xx_syscfg.crf --depend .\objects\stm32f0xx_syscfg.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_usart.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_usart.o --omf_browse .\objects\stm32f0xx_usart.crf --depend .\objects\stm32f0xx_usart.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_misc.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+F (.\Library\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_pwr.c)(0x528ACF1E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\stm32f0xx_pwr.o --omf_browse .\objects\stm32f0xx_pwr.crf --depend .\objects\stm32f0xx_pwr.d)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+F (.\uart\uart.c)(0x56B43F8F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\User\main.h)(0x56B45933)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\math.h)(0x54199D7A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (.\uart\uart.h)(0x56B43F64)
+I (.\ADSP9960\ADSP9960_platform.h)(0x56B45445)
+I (.\ADSP9960\SparkFun_ADSP9960.h)(0x56B4485F)
+F (.\ADSP9960\ADSP9960_platform.c)(0x56B45556)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\adsp9960_platform.o --omf_browse .\objects\adsp9960_platform.crf --depend .\objects\adsp9960_platform.d)
+I (.\User\main.h)(0x56B45933)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\math.h)(0x54199D7A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (.\uart\uart.h)(0x56B43F64)
+I (.\ADSP9960\ADSP9960_platform.h)(0x56B45445)
+I (.\ADSP9960\SparkFun_ADSP9960.h)(0x56B4485F)
+F (.\ADSP9960\SparkFun_ADSP9960.c)(0x56B45653)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960-I "C:\Users\Administrator\Desktop\2016 2.5 ADSP9960驱动程序（stm32f0c8）\RTE"-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK-o .\objects\sparkfun_adsp9960.o --omf_browse .\objects\sparkfun_adsp9960.crf --depend .\objects\sparkfun_adsp9960.d)
+I (.\User\main.h)(0x56B45933)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h)(0x548E991E)
+I (.\Library\CMSIS\Include\core_cm0.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54199D7A)
+I (.\Library\CMSIS\Include\core_cmInstr.h)(0x528ACF0A)
+I (.\Library\CMSIS\Include\core_cmFunc.h)(0x528ACF0A)
+I (d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (.\User\stm32f0xx_conf.h)(0x528ADCEA)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_cec.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_crc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_comp.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dac.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dbgmcu.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_dma.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_exti.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_i2c.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_iwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_pwr.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rtc.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x528ACF1E)
+I (.\Library\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x528ACF1E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\math.h)(0x54199D7A)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54199D7C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x54199D7C)
+I (.\uart\uart.h)(0x56B43F64)
+I (.\ADSP9960\ADSP9960_platform.h)(0x56B45445)
+I (.\ADSP9960\SparkFun_ADSP9960.h)(0x56B4485F)

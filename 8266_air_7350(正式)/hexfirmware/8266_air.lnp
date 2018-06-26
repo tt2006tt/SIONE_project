@@ -1,0 +1,6 @@
+".\hexfirmware\STARTUP.obj",
+".\hexfirmware\main.obj",
+".\hexfirmware\voc_init.obj" 
+TO ".\hexfirmware\8266_air" 
+PRINT(".\8266_air.m51") RAMSIZE(256) 
+CODE( 0x100 )

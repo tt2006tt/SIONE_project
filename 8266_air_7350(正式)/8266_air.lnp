@@ -1,0 +1,6 @@
+"STARTUP.obj",
+"main.obj",
+"voc_init.obj" 
+TO "8266_air" 
+RAMSIZE(256) 
+CODE( 0x100 )

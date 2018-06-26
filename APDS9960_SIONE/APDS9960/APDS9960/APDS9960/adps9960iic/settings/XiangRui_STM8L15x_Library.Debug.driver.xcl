@@ -1,0 +1,15 @@
+"-p" 
+
+"E:\IAR_STM8\stm8\config\ddf\iostm8l151k4.ddf" 
+
+"-d" 
+
+"stlink" 
+
+"--mcuname" 
+
+"STM8L151K4" 
+
+
+
+

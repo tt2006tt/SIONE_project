@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\User -I.\Library\CMSIS\Include -I.\Library\STM32F0xx_StdPeriph_Driver\inc -I.\uart -I.\ADSP9960
+-I "C:\Users\Administrator\Desktop\2015 11 26 RFID LOCK2±ê×¼Ä£°å\RTE"
+-I d:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include
+-I d:\Keil_v5\ARM\CMSIS\Include
+-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F030 -DUSE_DEFAULT_TIMEOUT_CALLBACK
+-o .\objects\proximitysensor.o --omf_browse .\objects\proximitysensor.crf --depend .\objects\proximitysensor.d "User\ProximitySensor.c"

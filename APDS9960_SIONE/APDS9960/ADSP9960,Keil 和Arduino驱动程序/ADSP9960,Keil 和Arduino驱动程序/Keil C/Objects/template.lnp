@@ -1,0 +1,20 @@
+--cpu Cortex-M0
+".\objects\startup_stm32f030.o"
+".\objects\system_stm32f0xx.o"
+".\objects\stm32f0xx_it.o"
+".\objects\gesture.o"
+".\objects\stm32f0xx_rcc.o"
+".\objects\stm32f0xx_exti.o"
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_i2c.o"
+".\objects\stm32f0xx_syscfg.o"
+".\objects\stm32f0xx_usart.o"
+".\objects\stm32f0xx_misc.o"
+".\objects\stm32f0xx_pwr.o"
+".\objects\uart.o"
+".\objects\adsp9960_platform.o"
+".\objects\sparkfun_adsp9960.o"
+--strict --scatter ".\Objects\template.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\template.map" -o .\Objects\template.axf
